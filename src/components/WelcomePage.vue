@@ -1,10 +1,10 @@
 <template>
   <div class="hello">
-    <!-- <li v-for="(data, index) in pages" :key='index'>
-        {{data.page}}
+    <!-- <li v-for="(data, index) in names" :key='index'>
+        {{data.name}}
     </li> -->
-    <!-- <p v-for="(data, index) in pages" :key='index'>
-        {{data.page}}
+    <!-- <p v-for="(data, index) in names" :key='index'>
+        {{data.name}}
     </p> -->
 
     <!-- Navbar (sit on top) -->
@@ -106,12 +106,12 @@ export default {
   name: 'WelcomePage',
   data() {
     return {
-      pages: [
-        {"page": "My page"},
-        {"page": "My home"},
-        {"page": "My about"},
-        {"page": "My contact"},
-        {"page": "My view"}
+      names: [
+        {"name": "Juma Ally"},
+        {"name": "Junior Kondo"},
+        {"name": "Agnes Peter"},
+        {"name": "Kitumbo Kongoro"},
+        {"name": "Hamida Nassoro"}
       ]
     }
   }
